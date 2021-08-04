@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "405f6275-3238-4038-8113-835c4b5060a5",
+		"name": "Booking Hotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Booking Hotel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8050/booking/hotel/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8050",
+					"path": [
+						"booking",
+						"hotel",
+						"search"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
